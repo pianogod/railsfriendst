@@ -17,10 +17,10 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
 end
 
-group :development do
-  gem "web-console"
-  gem "sqlite3", "~> 1.4"
-end
+#group :development do
+ # gem "web-console"
+  #gem "sqlite3", "~> 1.4"
+#end
 
 group :production do 
   gem 'pg', '~> 1.5', '>= 1.5.6'      
